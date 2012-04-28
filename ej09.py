@@ -5,10 +5,17 @@ class Sprite(object):
         self.image = sf.Image()
         self.image.LoadFromFile(image)
         self.sprite = sf.Sprite(self.image)
-        w, h = self.sprite.GetSize()
-        self.sprite.SetCenter(w/2, h/2)
+        self.width, self.height = self.sprite.GetSize()
+        self.sprite.SetCenter(self.width/2, self.height/2)
         self.sprite.SetPosition(x, y)
         self.dead = False
+
+    def get_rect(self):
+        x, y = self.sprite.GetPosition()
+        return sf.FloatRect(x - self.width/2,
+                            y - self.height/2,
+                            x + self.width/2,
+                            y + self.height/2)
 
     def draw(self, window):
         window.Draw(self.sprite)
@@ -41,6 +48,9 @@ class Invader(Sprite):
         self.sprite.SetColor(sf.Color.Green)
         self.count = 0
 
+    def __str__(self):
+        return "Invader(%s, %s)" % self.sprite.GetPosition()
+
     def update(self, delta):
         x_pos, y_pos = self.sprite.GetPosition()
         x, y = 0, 0
@@ -67,16 +77,17 @@ class Invader(Sprite):
 
 class Bullet(Sprite):
     def __init__(self, ship):
-        x, y = ship.GetPosition()
+        x, y = ship.sprite.GetPosition()
         super(Bullet, self).__init__("bullet.png", x, y)
         self.velocity = -300
 
     def update(self, aliens, delta):
-        self.Move(0, self.velocity * delta)
-        rect = self.sprite.GetSubRect()
+        self.sprite.Move(0, self.velocity * delta)
+        rect = self.get_rect()
         for alien in aliens:
-            if rect.Intersects(alien.sprite.GetSubRect()):
+            if rect.Intersects(alien.get_rect()):
                 alien.die()
+                self.die()
 
 def main():
     window = sf.RenderWindow(sf.VideoMode(640, 480),
@@ -104,20 +115,20 @@ def main():
         delta = window.GetFrameTime()
         ship.update(input_, delta)
 
-        for alien in aliens[:]:
+        for alien in aliens:
             alien.update(delta)
-            if alien.dead:
-                aliens.remove(alien)
+        aliens = filter(lambda x: not x.dead, aliens)
 
-        for bullet in bullets[:]:
+        for bullet in bullets:
             bullet.update(aliens, delta)
-            if bullet.dead:
-                bullets.remove(bullet)
+        bullets = filter(lambda x: not x.dead, bullets)
 
         window.Clear()
         ship.draw(window)
         for alien in aliens:
             alien.draw(window)
+        for bullet in bullets:
+            bullet.draw(window)
         window.Display()
 
 
