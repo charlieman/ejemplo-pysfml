@@ -3,12 +3,11 @@ from PySFML import sf
 window = sf.RenderWindow(sf.VideoMode(640, 480),
                          "Ejemplo 04")
 
-text = sf.String("M")
+text = sf.String("Hola Flisol")
 text.SetSize(50)
 rect = text.GetRect()
 text.SetCenter(rect.GetWidth()/2, rect.GetHeight()/2)
-text.SetRotation(180)
-text.SetPosition(320, 400)
+text.SetPosition(320, 240)
 event = sf.Event()
 
 running = True
