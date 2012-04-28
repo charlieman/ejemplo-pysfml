@@ -48,9 +48,6 @@ class Invader(Sprite):
         self.sprite.SetColor(sf.Color.Green)
         self.count = 0
 
-    def __str__(self):
-        return "Invader(%s, %s)" % self.sprite.GetPosition()
-
     def update(self, delta):
         x_pos, y_pos = self.sprite.GetPosition()
         x, y = 0, 0
