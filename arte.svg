@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="arte.svg">
+  <defs
+     id="defs4">
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect3813"
+       is_visible="true"
+       pattern="m 52,-22 0,10 10,-5 z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3811"
+       is_visible="true" />
+    <inkscape:path-effect
+       fuse_tolerance="0"
+       vertical_pattern="false"
+       prop_units="false"
+       tang_offset="0"
+       normal_offset="0"
+       spacing="0"
+       scale_y_rel="false"
+       prop_scale="1"
+       copytype="single_stretched"
+       pattern="m 0,-22 0,10 10,-5 z"
+       is_visible="true"
+       id="path-effect3809"
+       effect="skeletal" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect3807"
+       effect="spiro" />
+    <inkscape:path-effect
+       fuse_tolerance="0"
+       vertical_pattern="false"
+       prop_units="false"
+       tang_offset="0"
+       normal_offset="0"
+       spacing="0"
+       scale_y_rel="false"
+       prop_scale="1"
+       copytype="single_stretched"
+       pattern="M 52,0 52,10 62,5 z"
+       is_visible="true"
+       id="path-effect3801"
+       effect="skeletal" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect3799"
+       effect="spiro" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect3795"
+       is_visible="true"
+       pattern="M 0,0 0,10 10,5 z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3793"
+       is_visible="true" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.578125"
+     inkscape:cx="437.6216"
+     inkscape:cy="585.2087"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1346"
+     inkscape:window-height="838"
+     inkscape:window-x="5"
+     inkscape:window-y="31"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       id="rect2985"
+       width="673.26483"
+       height="467.72485"
+       x="24.276377"
+       y="69.978119" />
+    <g
+       id="g3769"
+       transform="translate(60,1)"
+       inkscape:export-filename="/home/carlos/ejemplo-pysfml/ship.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         id="rect2992"
+         d="m 347.78125,475.0625 c -2.60863,0 -4.71875,6.11011 -4.71875,8.71875 l 0,8.5 c -1.97736,3.55032 -9.7745,8.5 -14.75,8.5 -2.89849,0 -4.92201,2.3355 -5.21875,5.21875 l -2,19.4375 c -0.29674,2.88325 2.36938,5.75008 5.21875,5.21875 0,-6.2464 7.11323,-10 10.75,-10 3.63677,0 3.34489,10 10.71875,10 7.37386,0 7.08198,-10 10.71875,-10 3.63677,0 10.71875,4.20365 10.71875,10 2.89848,0 5.54674,-2.3355 5.25,-5.21875 l -2,-19.4375 c -0.29674,-2.88325 -2.35152,-5.21875 -5.25,-5.21875 -4.99219,0 -12.80519,-4.90866 -14.75,-8.5 l 0,-8.5 c 0,-2.60864 -2.07886,-8.71875 -4.6875,-8.71875 z"
+         style="fill:#e05810;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         inkscape:connector-curvature="0" />
+      <path
+         transform="translate(0.2322734,0)"
+         d="m 355.02321,512.87634 c 0,8.25575 -3.3463,14.94835 -7.47417,14.94835 -4.12787,0 -7.47417,-6.6926 -7.47417,-14.94835 0,-8.25574 3.3463,-14.94834 7.47417,-14.94834 4.12787,0 7.47417,6.6926 7.47417,14.94834 z"
+         sodipodi:ry="14.948346"
+         sodipodi:rx="7.4741731"
+         sodipodi:cy="512.87634"
+         sodipodi:cx="347.54904"
+         id="path2999"
+         style="fill:#a6410c;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         sodipodi:type="arc" />
+    </g>
+    <path
+       style="fill:#f4925e;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 411.28697,464.17663 c 0,4.52857 -1.22371,4.1997 -2.73323,4.1997 -1.50953,0 -2.73324,0.32887 -2.73324,-4.1997 0,-4.52858 1.22371,-12.19971 2.73324,-12.19971 1.50952,0 2.73323,7.67113 2.73323,12.19971 z"
+       id="path3773"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-filename="/home/carlos/ejemplo-pysfml/bullet.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="translate(24.475043,1.6126966)"
+       d="m 375.57996,341.34891 a 4.7337389,3.8021696 0 1 1 -9.46748,0 4.7337389,3.8021696 0 1 1 9.46748,0 z"
+       sodipodi:ry="3.8021696"
+       sodipodi:rx="4.7337389"
+       sodipodi:cy="341.34891"
+       sodipodi:cx="370.84622"
+       id="path3821"
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       sodipodi:type="arc" />
+    <g
+       id="g3847"
+       style="fill:#ffffff"
+       transform="matrix(0.46442734,0,0,0.46442734,229.44004,203.50062)"
+       inkscape:export-filename="/home/carlos/ejemplo-pysfml/alien.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         sodipodi:nodetypes="ccccccacssscsssccccccccsssss"
+         inkscape:connector-curvature="0"
+         id="rect3776"
+         d="m 356.48326,320.5625 c -2.46997,0.0933 -4.83227,0.75475 -6.84375,1.84375 2.96177,-0.39163 5.87531,0.15618 8.25,1.375 2.37553,1.21579 4.24729,3.10602 5.34375,5.1875 0.51779,0.97668 0.88618,2.03008 1.09375,3.0625 -0.34516,0.0704 -0.69146,0.16294 -1,0.3125 -8.11369,1.67182 -16.44967,5.69371 -19.375,12.875 -2.22728,5.46767 -0.92051,13.19244 3.70299,17.32033 -3.00336,-4.58719 -2.85849,-19.36254 6.45335,-18.49224 1.7471,0.16328 3.14126,1.68754 3.23631,4.15181 0.19199,4.97778 -1.56314,12.99205 1.32606,16.80119 2.86037,3.77113 3.13021,6.25016 12.75004,6.25016 -4.84321,-2.69754 -6.125,-4.43082 -6.125,-7.8125 l 0,-1.34375 c 0,-4.97273 7.2384,-6.71875 15.84375,-6.71875 l 1.15625,0 0,-23.125 -8.8125,0 c -1.18003,-2.99701 -3.03903,-5.60756 -5.34375,-7.5625 -2.7719,-2.34156 -6.08612,-3.68438 -9.375,-4.03125 -0.41121,-0.043 -0.81117,-0.0823 -1.21875,-0.0937 -0.35663,-0.01 -0.70965,-0.0133 -1.0625,0 z m 10.5,20.59375 c 2.61437,0 4.71875,1.71262 4.71875,3.8125 0,2.09988 -2.10438,-0.21875 -4.71875,-0.21875 -2.61437,0 -4.75,-1.68137 -4.75,-3.78125 0,-2.09988 2.13563,0.1875 4.75,0.1875 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+      <use
+         height="1052.3622"
+         width="744.09448"
+         transform="matrix(-1,0,0,1,764.05757,0)"
+         id="use3844"
+         xlink:href="#rect3776"
+         y="0"
+         x="0"
+         style="fill:#ffffff" />
+    </g>
+  </g>
+</svg>
