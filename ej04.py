@@ -1,8 +1,7 @@
-# Include the PySFML extension
 from PySFML import sf
 
-# Create the main window
-window = sf.RenderWindow(sf.VideoMode(640, 480), "Ejemplo 04")
+window = sf.RenderWindow(sf.VideoMode(640, 480),
+                         "Ejemplo 04")
 
 text = sf.String("M")
 text.SetSize(30)

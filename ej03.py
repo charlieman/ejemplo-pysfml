@@ -1,13 +1,9 @@
-# Include the PySFML extension
 from PySFML import sf
 
-# Create the main window
-window = sf.RenderWindow(sf.VideoMode(640, 480), "Ejemplo 03")
-
-# Create a graphical string to display
-text = sf.String("Hello SFML")
-
+window = sf.RenderWindow(sf.VideoMode(640, 480),
+                         "Ejemplo 03")
 event = sf.Event()
+text = sf.String("Hola Flisol")
 
 running = True
 while running:
