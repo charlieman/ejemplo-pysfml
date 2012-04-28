@@ -65,7 +65,7 @@ class Invader(Sprite):
 
         self.sprite.Move(x, y)
 
-def Bullet(Sprite):
+class Bullet(Sprite):
     def __init__(self, ship):
         x, y = ship.GetPosition()
         super(Bullet, self).__init__("bullet.png", x, y)
@@ -98,9 +98,7 @@ def main():
                 running = False
             elif event.Type == sf.Event.KeyPressed and \
                event.Key.Code == sf.Key.Space:
-                b = Bullet(ship)
-                print b
-                bullets.append(b)
+               bullets.append(Bullet(ship))
 
         input_ = window.GetInput()
         delta = window.GetFrameTime()
